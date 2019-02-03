@@ -1,0 +1,577 @@
+2018-10-10 17:35:06.183 INFO  (main) [   ] o.e.j.u.log Logging initialized @1340ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-10-10 17:35:06.530 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_181-b13
+2018-10-10 17:35:06.580 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Workspace/extractBinary/solr-7.4.0/server/contexts/] at interval 0
+2018-10-10 17:35:07.248 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-10-10 17:35:07.256 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-10-10 17:35:07.256 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-10-10 17:35:07.258 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2018-10-10 17:35:07.310 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-10-10 17:35:07.341 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-10-10 17:35:07.348 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.4.0
+2018-10-10 17:35:07.348 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-10-10 17:35:07.348 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Workspace\extractBinary\solr-7.4.0
+2018-10-10 17:35:07.349 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-10-10T17:35:07.349Z
+2018-10-10 17:35:07.375 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Workspace\extractBinary\solr-7.4.0\server\solr
+2018-10-10 17:35:07.382 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Workspace\extractBinary\solr-7.4.0\server\solr\solr.xml
+2018-10-10 17:35:07.442 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2, but no JMX reporters were configured - adding default JMX reporter.
+2018-10-10 17:35:13.080 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-10-10 17:35:13.083 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-10-10 17:35:13.237 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.238 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.246 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.271 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 4 core definitions underneath C:\Workspace\extractBinary\solr-7.4.0\server\solr
+2018-10-10 17:35:13.272 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [analytic, analytic3, analytic4, commentRattingAnalytic]
+2018-10-10 17:35:13.305 WARN  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.Config You should not use LATEST as luceneMatchVersion property: if you use this setting, and then Solr upgrades to a newer release of Lucene, sizable changes may happen. If precise back compatibility is important then you should instead explicitly specify an actual Lucene version.
+2018-10-10 17:35:13.319 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-10-10 17:35:13.319 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-10-10 17:35:13.322 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-10-10 17:35:13.433 WARN  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2018-10-10 17:35:13.434 WARN  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2018-10-10 17:35:13.446 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.s.IndexSchema [analytic3] Schema name=test
+2018-10-10 17:35:13.449 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.s.IndexSchema [analytic4] Schema name=test
+2018-10-10 17:35:13.453 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.IndexSchema [analytic] Schema name=test
+2018-10-10 17:35:13.581 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field reviewId
+2018-10-10 17:35:13.581 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field id
+2018-10-10 17:35:13.581 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field id
+2018-10-10 17:35:13.582 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.c.CoreContainer Creating SolrCore 'analytic4' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic4, trusted=true
+2018-10-10 17:35:13.582 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.c.CoreContainer Creating SolrCore 'analytic3' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic3, trusted=true
+2018-10-10 17:35:13.582 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.CoreContainer Creating SolrCore 'analytic' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic, trusted=true
+2018-10-10 17:35:13.615 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.analytic' (registry 'solr.core.analytic') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.615 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.analytic4' (registry 'solr.core.analytic4') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.615 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.analytic3' (registry 'solr.core.analytic3') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:13.624 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-10 17:35:13.624 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-10 17:35:13.624 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-10 17:35:13.633 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrCore [[analytic] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic\data\]
+2018-10-10 17:35:13.633 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.c.SolrCore [[analytic3] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic3], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic3\data\]
+2018-10-10 17:35:13.633 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.c.SolrCore [[analytic4] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic4], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic4\data\]
+2018-10-10 17:35:13.838 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@c86b9e3{/solr,file:///C:/Workspace/extractBinary/solr-7.4.0/server/solr-webapp/webapp/,AVAILABLE}{file:///C:/Workspace/extractBinary/solr-7.4.0/server//solr-webapp/webapp}
+2018-10-10 17:35:13.858 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@2b5825fa{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-10-10 17:35:13.858 INFO  (main) [   ] o.e.j.s.Server Started @9019ms
+2018-10-10 17:35:14.318 INFO  (qtp2045766957-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=49
+2018-10-10 17:35:18.861 WARN  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.StandardRequestHandler]. Please consult documentation how to replace it accordingly.
+2018-10-10 17:35:18.879 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-10-10 17:35:18.879 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-10 17:35:18.880 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-10-10 17:35:18.880 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-10 17:35:18.881 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-10-10 17:35:18.881 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-10 17:35:18.990 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.s.SolrIndexSearcher Opening [Searcher@7ededc27[analytic4] main]
+2018-10-10 17:35:18.990 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@35069936[analytic] main]
+2018-10-10 17:35:19.016 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic4\conf
+2018-10-10 17:35:19.022 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic\conf
+2018-10-10 17:35:19.067 INFO  (coreLoadExecutor-9-thread-3) [   x:analytic4] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-10 17:35:19.068 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-10 17:35:19.086 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@35069936[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:35:19.087 INFO  (searcherExecutor-10-thread-1-processing-x:analytic4) [   x:analytic4] o.a.s.c.SolrCore [analytic4] Registered new searcher Searcher@7ededc27[analytic4] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:35:19.097 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-10-10 17:35:19.122 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema [commentRattingAnalytic] Schema name=test
+2018-10-10 17:35:19.124 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.s.SolrIndexSearcher Opening [Searcher@55400720[analytic3] main]
+2018-10-10 17:35:19.126 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic3\conf
+2018-10-10 17:35:19.129 INFO  (coreLoadExecutor-9-thread-2) [   x:analytic3] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-10 17:35:19.130 INFO  (searcherExecutor-12-thread-1-processing-x:analytic3) [   x:analytic3] o.a.s.c.SolrCore [analytic3] Registered new searcher Searcher@55400720[analytic3] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.4.0):C1) Uninverting(_4(7.4.0):C1)))}
+2018-10-10 17:35:19.131 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field contentId
+2018-10-10 17:35:19.131 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'commentRattingAnalytic' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic, trusted=true
+2018-10-10 17:35:19.132 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.commentRattingAnalytic' (registry 'solr.core.commentRattingAnalytic') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:35:19.132 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-10 17:35:19.132 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore [[commentRattingAnalytic] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic\data\]
+2018-10-10 17:35:19.966 INFO  (qtp2045766957-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192811130} status=0 QTime=4
+2018-10-10 17:35:19.978 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1539192919932&since=0} status=0 QTime=3
+2018-10-10 17:35:20.032 INFO  (qtp2045766957-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192811131} status=0 QTime=58
+2018-10-10 17:35:23.747 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-10-10 17:35:23.747 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-10 17:35:23.766 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@76163209[commentRattingAnalytic] main]
+2018-10-10 17:35:23.767 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic\conf
+2018-10-10 17:35:23.767 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-10 17:35:23.769 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.SolrCore [commentRattingAnalytic] Registered new searcher Searcher@76163209[commentRattingAnalytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(7.4.0):C1) Uninverting(_1h(7.4.0):C1)))}
+2018-10-10 17:35:25.372 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:35:25.394 INFO  (qtp2045766957-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1539192925365&since=0} status=0 QTime=0
+2018-10-10 17:35:25.427 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=53
+2018-10-10 17:35:29.609 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:35:29.622 INFO  (qtp2045766957-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1539192925301} status=0 QTime=11
+2018-10-10 17:35:29.666 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=1
+2018-10-10 17:35:29.667 INFO  (qtp2045766957-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=57
+2018-10-10 17:35:29.675 INFO  (qtp2045766957-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1539192925301} status=0 QTime=4
+2018-10-10 17:35:29.721 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=48
+2018-10-10 17:35:31.672 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:35:31.682 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1539192925301} status=0 QTime=6
+2018-10-10 17:35:31.732 INFO  (qtp2045766957-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=57
+2018-10-10 17:36:00.453 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=commentRattingAnalytic2&action=CREATE&config=solrconfig.xml&instanceDir=commentRattingAnalytic2&wt=json&_=1539192925301
+2018-10-10 17:36:00.471 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-10-10 17:36:00.494 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.ManagedIndexSchemaFactory The schema is configured as managed, but managed schema resource managed-schema not found - loading non-managed schema schema.xml instead
+2018-10-10 17:36:00.507 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.IndexSchema [commentRattingAnalytic2] Schema name=test
+2018-10-10 17:36:00.526 WARN  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2018-10-10 17:36:00.531 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field contentId
+2018-10-10 17:36:00.572 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\conf\managed-schema
+2018-10-10 17:36:00.624 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.ManagedIndexSchemaFactory After upgrading to managed schema, renamed the non-managed schema C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\schema.xml to C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\schema.xml.bak
+2018-10-10 17:36:00.625 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.CoreContainer Creating SolrCore 'commentRattingAnalytic2' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2, trusted=true
+2018-10-10 17:36:00.625 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.commentRattingAnalytic2' (registry 'solr.core.commentRattingAnalytic2') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-10-10 17:36:00.625 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-10 17:36:00.625 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [[commentRattingAnalytic2] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\data\]
+2018-10-10 17:36:05.761 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-10-10 17:36:05.766 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-10 17:36:05.797 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@1f204ca7[commentRattingAnalytic2] main]
+2018-10-10 17:36:05.802 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\conf
+2018-10-10 17:36:05.803 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-10 17:36:05.804 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@1f204ca7[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:36:05.828 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=commentRattingAnalytic2&action=CREATE&config=solrconfig.xml&instanceDir=commentRattingAnalytic2&wt=json&_=1539192925301} status=0 QTime=5374
+2018-10-10 17:36:05.870 INFO  (qtp2045766957-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:36:05.886 INFO  (qtp2045766957-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1539192925301} status=0 QTime=10
+2018-10-10 17:36:05.925 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=53
+2018-10-10 17:36:10.208 INFO  (qtp2045766957-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:36:10.229 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/replication params={wt=json&command=details&_=1539192970194} status=0 QTime=8
+2018-10-10 17:36:10.233 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1539192970193} status=0 QTime=17
+2018-10-10 17:36:10.243 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1539192925301&ts=1539192925301} status=503 QTime=1
+2018-10-10 17:36:10.346 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=133
+2018-10-10 17:36:10.346 INFO  (qtp2045766957-16) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/system params={wt=json&_=1539192970193} status=0 QTime=108
+2018-10-10 17:36:12.171 INFO  (qtp2045766957-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:36:12.177 INFO  (qtp2045766957-23) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1539192970193} status=0 QTime=3
+2018-10-10 17:36:12.182 INFO  (qtp2045766957-19) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/config params={wt=json&_=1539192972149} status=0 QTime=4
+2018-10-10 17:36:12.228 INFO  (qtp2045766957-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=54
+2018-10-10 17:36:12.291 INFO  (qtp2045766957-16) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1539192970193} status=0 QTime=1
+2018-10-10 17:36:22.217 INFO  (qtp2045766957-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:36:22.229 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1539192970193} status=0 QTime=0
+2018-10-10 17:36:22.272 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=53
+2018-10-10 17:36:22.303 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1539192970193} status=0 QTime=0
+2018-10-10 17:50:05.847 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[3be041b1-4657-45d5-a3a6-29da578923cb]} 0 131
+2018-10-10 17:50:05.901 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:50:05.902 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:50:06.129 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@49ace1e0[analytic] main]
+2018-10-10 17:50:06.131 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:50:06.156 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@49ace1e0[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1s(7.4.0):C1)))}
+2018-10-10 17:50:06.174 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 273
+2018-10-10 17:50:37.087 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=1 status=0 QTime=83
+2018-10-10 17:50:37.154 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=contentId:4&wt=xml&version=2.2} hits=0 status=0 QTime=3
+2018-10-10 17:50:37.196 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4]} 0 21
+2018-10-10 17:50:37.204 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:50:37.204 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d3f33ad commitCommandVersion:0
+2018-10-10 17:50:37.373 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@5f73710d[commentRattingAnalytic2] main]
+2018-10-10 17:50:37.373 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:50:37.375 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@5f73710d[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.4.0):C1)))}
+2018-10-10 17:50:37.376 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 173
+2018-10-10 17:50:37.384 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{deleteByQuery=reviewId:3be041b1-4657-45d5-a3a6-29da578923cb} 0 3
+2018-10-10 17:50:37.389 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:50:37.390 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:50:37.445 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@22d724e6[analytic] main]
+2018-10-10 17:50:37.445 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:50:37.446 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@22d724e6[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:50:37.454 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 64
+2018-10-10 17:50:38.461 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:39.478 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:40.505 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:50:41.519 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:42.534 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:43.544 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:43.627 INFO  (qtp2045766957-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539192925301} status=0 QTime=0
+2018-10-10 17:50:43.674 INFO  (qtp2045766957-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539192925301} status=0 QTime=46
+2018-10-10 17:50:44.557 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:45.592 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:46.608 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:47.626 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:47.994 INFO  (qtp2045766957-16) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=*:*&_=1539193843583} hits=1 status=0 QTime=1
+2018-10-10 17:50:48.646 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:49.659 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:50.674 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:51.693 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:52.703 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:53.710 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:54.725 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:55.748 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:56.759 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:50:57.767 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:58.783 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:50:59.800 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:00.818 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:01.839 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:02.854 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:03.860 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:04.874 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:05.895 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:06.916 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:07.935 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:08.953 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:09.972 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:10.991 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:12.010 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:13.019 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:13.196 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[25544f78-0751-4a0a-9d62-f37f33d46b4e]} 0 2
+2018-10-10 17:51:13.201 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:13.202 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:51:13.439 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@4ca8aeb6[analytic] main]
+2018-10-10 17:51:13.439 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:13.441 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@4ca8aeb6[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1t(7.4.0):C1)))}
+2018-10-10 17:51:13.441 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 240
+2018-10-10 17:51:14.025 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=1 status=0 QTime=0
+2018-10-10 17:51:14.043 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=contentId:4&wt=xml&version=2.2} hits=1 status=0 QTime=11
+2018-10-10 17:51:14.056 INFO  (qtp2045766957-20) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4]} 0 5
+2018-10-10 17:51:14.060 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:14.061 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d3f33ad commitCommandVersion:0
+2018-10-10 17:51:14.228 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@722223b8[commentRattingAnalytic2] main]
+2018-10-10 17:51:14.230 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@722223b8[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(7.4.0):C1)))}
+2018-10-10 17:51:14.232 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:14.238 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 177
+2018-10-10 17:51:14.244 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{deleteByQuery=reviewId:25544f78-0751-4a0a-9d62-f37f33d46b4e} 0 0
+2018-10-10 17:51:14.248 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:14.248 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:51:14.285 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@64298a3a[analytic] main]
+2018-10-10 17:51:14.286 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:14.287 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@64298a3a[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:51:14.299 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 51
+2018-10-10 17:51:15.316 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:16.331 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:17.349 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:18.368 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:19.377 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:20.391 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:21.408 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:22.422 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:22.890 INFO  (qtp2045766957-20) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=*:*&_=1539193843583} hits=1 status=0 QTime=72
+2018-10-10 17:51:23.437 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:24.449 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:25.465 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:26.480 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:27.493 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:28.513 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:29.537 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:30.555 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:31.589 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:32.620 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:33.702 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:34.719 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:35.727 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:36.740 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:37.764 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:38.783 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:39.801 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:40.820 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:41.853 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:42.883 INFO  (qtp2045766957-16) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:51:43.893 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:44.049 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4fc6928d-cf61-45ac-86c5-ccfb4ace9aef]} 0 1
+2018-10-10 17:51:44.054 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:44.054 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:51:44.227 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@66129103[analytic] main]
+2018-10-10 17:51:44.228 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:44.231 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@66129103[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1u(7.4.0):C1)))}
+2018-10-10 17:51:44.232 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 177
+2018-10-10 17:51:44.908 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=1 status=0 QTime=1
+2018-10-10 17:51:44.923 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=contentId:4&wt=xml&version=2.2} hits=1 status=0 QTime=1
+2018-10-10 17:51:44.932 INFO  (qtp2045766957-20) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4]} 0 1
+2018-10-10 17:51:44.937 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:44.937 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d3f33ad commitCommandVersion:0
+2018-10-10 17:51:45.095 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@50a49ccf[commentRattingAnalytic2] main]
+2018-10-10 17:51:45.097 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:45.100 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@50a49ccf[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(7.4.0):C1)))}
+2018-10-10 17:51:45.111 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 174
+2018-10-10 17:51:45.118 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{deleteByQuery=reviewId:4fc6928d-cf61-45ac-86c5-ccfb4ace9aef} 0 0
+2018-10-10 17:51:45.123 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:51:45.124 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:51:45.161 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@61586f64[analytic] main]
+2018-10-10 17:51:45.161 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:51:45.162 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@61586f64[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:51:45.168 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 44
+2018-10-10 17:51:46.184 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:47.199 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:48.207 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:49.218 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:50.235 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:51.250 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:52.263 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:53.279 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:54.295 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:55.308 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:56.324 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:57.332 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:51:58.344 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:51:59.360 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:00.368 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:01.374 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:02.168 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[a2d3d32c-fb18-4c75-bb40-83202a62a5f4]} 0 1
+2018-10-10 17:52:02.173 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:52:02.173 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:52:02.381 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:02.405 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@7e5e149f[analytic] main]
+2018-10-10 17:52:02.405 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:52:02.407 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@7e5e149f[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1v(7.4.0):C1)))}
+2018-10-10 17:52:02.408 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 235
+2018-10-10 17:52:03.387 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=1 status=0 QTime=0
+2018-10-10 17:52:03.395 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=contentId:4&wt=xml&version=2.2} hits=1 status=0 QTime=0
+2018-10-10 17:52:03.403 INFO  (qtp2045766957-20) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4]} 0 2
+2018-10-10 17:52:03.408 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:52:03.408 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d3f33ad commitCommandVersion:0
+2018-10-10 17:52:03.589 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@7da09fa6[commentRattingAnalytic2] main]
+2018-10-10 17:52:03.591 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:52:03.594 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@7da09fa6[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.4.0):C1)))}
+2018-10-10 17:52:03.609 INFO  (qtp2045766957-22) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 200
+2018-10-10 17:52:03.624 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{deleteByQuery=reviewId:a2d3d32c-fb18-4c75-bb40-83202a62a5f4} 0 2
+2018-10-10 17:52:03.633 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:52:03.633 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:52:03.740 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@65fac6a9[analytic] main]
+2018-10-10 17:52:03.742 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:52:03.745 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@65fac6a9[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:52:03.759 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 126
+2018-10-10 17:52:04.774 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:05.791 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:06.809 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:07.819 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:08.837 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:09.859 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:52:10.548 INFO  (qtp2045766957-23) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=*:*&_=1539193843583} hits=1 status=0 QTime=1
+2018-10-10 17:52:10.869 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:11.883 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:12.894 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:13.909 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:14.926 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:15.940 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:16.957 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:17.971 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:18.980 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:19.991 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:21.007 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:22.018 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:23.033 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:24.048 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:25.061 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:26.075 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:27.092 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=2
+2018-10-10 17:52:28.103 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:29.113 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:30.126 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:31.135 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:32.146 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:33.157 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:34.173 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:35.187 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:36.202 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:37.215 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:38.226 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:39.239 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:40.246 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:41.256 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:42.268 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:43.281 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:44.294 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:45.307 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:46.314 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:47.325 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:48.337 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:49.345 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:50.354 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:51.370 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:52.386 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:53.399 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:54.419 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:55.432 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:56.440 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:57.454 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:52:58.466 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:52:59.471 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:00.481 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:01.311 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[f2a28efd-5ba1-44ca-86e8-26da34ccfe81]} 0 9
+2018-10-10 17:53:01.327 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:53:01.328 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:53:01.488 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:01.616 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@29ef814e[analytic] main]
+2018-10-10 17:53:01.619 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:53:01.622 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@29ef814e[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1w(7.4.0):C1)))}
+2018-10-10 17:53:01.622 INFO  (qtp2045766957-22) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 297
+2018-10-10 17:53:02.504 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=1 status=0 QTime=1
+2018-10-10 17:53:02.527 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=contentId:4&wt=xml&version=2.2} hits=1 status=0 QTime=3
+2018-10-10 17:53:02.559 INFO  (qtp2045766957-20) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={wt=xml&version=2.2}{add=[4]} 0 10
+2018-10-10 17:53:02.570 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:53:02.571 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7d3f33ad commitCommandVersion:0
+2018-10-10 17:53:02.745 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@6bdc4bdc[commentRattingAnalytic2] main]
+2018-10-10 17:53:02.747 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:53:02.751 INFO  (searcherExecutor-26-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@6bdc4bdc[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(7.4.0):C1)))}
+2018-10-10 17:53:02.785 INFO  (qtp2045766957-21) [   x:commentRattingAnalytic2] o.a.s.u.p.LogUpdateProcessorFactory [commentRattingAnalytic2]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 214
+2018-10-10 17:53:02.804 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={wt=xml&version=2.2}{deleteByQuery=reviewId:f2a28efd-5ba1-44ca-86e8-26da34ccfe81} 0 1
+2018-10-10 17:53:02.811 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-10 17:53:02.812 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@50feb78f commitCommandVersion:0
+2018-10-10 17:53:02.866 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@2a56a7a0[analytic] main]
+2018-10-10 17:53:02.867 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-10 17:53:02.869 INFO  (searcherExecutor-11-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@2a56a7a0[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-10 17:53:02.875 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.u.p.LogUpdateProcessorFactory [analytic]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=xml&version=2.2}{commit=} 0 64
+2018-10-10 17:53:03.893 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:04.910 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:05.925 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:06.946 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:07.740 INFO  (qtp2045766957-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1539193987558} status=0 QTime=0
+2018-10-10 17:53:07.787 INFO  (qtp2045766957-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1539193987559} status=0 QTime=45
+2018-10-10 17:53:07.963 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:08.987 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:09.997 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:11.004 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:11.806 INFO  (qtp2045766957-14) [   x:commentRattingAnalytic2] o.a.s.c.S.Request [commentRattingAnalytic2]  webapp=/solr path=/select params={q=*:*&_=1539193987707} hits=1 status=0 QTime=1
+2018-10-10 17:53:12.017 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:13.025 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:14.038 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:15.054 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:16.070 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:17.077 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:18.088 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:19.102 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:20.114 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:21.128 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:22.135 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:23.148 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:24.160 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:25.174 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:26.187 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:27.201 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:28.214 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:29.229 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:30.242 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:31.257 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:32.273 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:33.288 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:34.295 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:35.313 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:36.323 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:37.336 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:38.349 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:39.362 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:40.375 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:41.388 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:42.400 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:43.412 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:44.424 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:45.438 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:46.445 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:47.456 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:48.471 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:53:49.485 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:50.492 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:51.503 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:52.516 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:53.524 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:54.533 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:55.537 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:56.546 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:57.552 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:58.556 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:53:59.567 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:00.581 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:01.594 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:02.606 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:03.619 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:04.633 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:05.649 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:06.657 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:07.661 INFO  (qtp2045766957-21) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:08.668 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:09.675 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:10.680 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:11.688 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:12.696 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:13.710 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:14.721 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:15.735 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:16.750 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:17.762 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:18.770 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:19.785 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:20.796 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:21.808 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:22.818 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:23.828 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:24.841 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:25.854 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:26.869 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:27.883 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:28.899 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:29.915 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:30.929 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:31.939 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:32.953 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:33.965 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:34.981 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:35.999 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:54:37.014 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:38.033 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:39.044 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:40.068 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:41.080 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:42.094 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:43.110 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:44.123 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:45.138 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:46.148 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:47.161 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:48.173 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:49.187 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:50.202 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:51.215 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:52.229 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:53.242 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:54.251 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:55.256 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:56.261 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:57.266 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:58.274 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:54:59.280 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:00.294 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:01.305 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:02.319 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:03.335 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:04.352 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:05.367 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:06.386 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:07.402 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:08.415 INFO  (qtp2045766957-20) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:09.431 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:10.451 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:11.457 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:12.472 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:13.486 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:14.503 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:15.510 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:16.519 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:17.532 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:18.542 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:19.551 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:20.561 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:21.567 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:22.583 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:23.597 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:24.609 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:25.625 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:26.639 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:27.645 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:28.661 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:29.676 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:30.691 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:31.698 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:32.711 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:33.727 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:34.735 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:35.740 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:36.752 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:37.765 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:38.771 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:39.782 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:40.796 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:41.809 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:42.823 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:43.830 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:44.836 INFO  (qtp2045766957-23) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:45.848 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=1
+2018-10-10 17:55:46.862 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:47.878 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:48.886 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:49.898 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:50.914 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:51.929 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:52.942 INFO  (qtp2045766957-15) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:53.955 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:54.964 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:55.976 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:56.989 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:58.005 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:55:59.017 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:00.031 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:01.044 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:02.056 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:03.071 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:04.090 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:05.098 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0
+2018-10-10 17:56:06.113 INFO  (qtp2045766957-14) [   x:analytic] o.a.s.c.S.Request [analytic]  webapp=/solr path=/select params={q=*:*&wt=xml&version=2.2} hits=0 status=0 QTime=0

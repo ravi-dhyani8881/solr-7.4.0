@@ -1,0 +1,113 @@
+2018-12-10 09:11:45.399 INFO  (main) [   ] o.e.j.u.log Logging initialized @2660ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-12-10 09:11:45.866 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_181-b13
+2018-12-10 09:11:45.926 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Workspace/extractBinary/solr-7.4.0/server/contexts/] at interval 0
+2018-12-10 09:11:46.781 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-12-10 09:11:46.798 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-12-10 09:11:46.799 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-12-10 09:11:46.802 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2018-12-10 09:11:46.957 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-12-10 09:11:47.014 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-12-10 09:11:47.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.4.0
+2018-12-10 09:11:47.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-12-10 09:11:47.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Workspace\extractBinary\solr-7.4.0
+2018-12-10 09:11:47.072 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-12-10T09:11:47.072Z
+2018-12-10 09:11:47.148 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Workspace\extractBinary\solr-7.4.0\server\solr
+2018-12-10 09:11:47.169 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Workspace\extractBinary\solr-7.4.0\server\solr\solr.xml
+2018-12-10 09:11:47.345 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2, but no JMX reporters were configured - adding default JMX reporter.
+2018-12-10 09:11:54.185 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-12-10 09:11:54.204 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-12-10 09:11:54.424 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:54.424 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:54.431 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:54.538 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 6 core definitions underneath C:\Workspace\extractBinary\solr-7.4.0\server\solr
+2018-12-10 09:11:54.539 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [analytic, commentRattingAnalytic, commentRattingAnalytic2, helpFull, like, reply]
+2018-12-10 09:11:54.641 WARN  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.Config You should not use LATEST as luceneMatchVersion property: if you use this setting, and then Solr upgrades to a newer release of Lucene, sizable changes may happen. If precise back compatibility is important then you should instead explicitly specify an actual Lucene version.
+2018-12-10 09:11:54.923 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:11:54.923 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:11:54.924 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:11:55.412 WARN  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2018-12-10 09:11:55.437 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.s.IndexSchema [commentRattingAnalytic] Schema name=test
+2018-12-10 09:11:55.437 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.s.IndexSchema [commentRattingAnalytic2] Schema name=test
+2018-12-10 09:11:55.482 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.IndexSchema [analytic] Schema name=test
+2018-12-10 09:11:55.626 WARN  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2018-12-10 09:11:55.813 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field reviewId
+2018-12-10 09:11:55.813 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field contentId
+2018-12-10 09:11:55.813 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field contentId
+2018-12-10 09:11:55.814 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.CoreContainer Creating SolrCore 'analytic' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic, trusted=true
+2018-12-10 09:11:55.814 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.CoreContainer Creating SolrCore 'commentRattingAnalytic2' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2, trusted=true
+2018-12-10 09:11:55.814 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.c.CoreContainer Creating SolrCore 'commentRattingAnalytic' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic, trusted=true
+2018-12-10 09:11:55.933 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.analytic' (registry 'solr.core.analytic') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:55.933 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.commentRattingAnalytic' (registry 'solr.core.commentRattingAnalytic') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:55.933 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.commentRattingAnalytic2' (registry 'solr.core.commentRattingAnalytic2') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:11:55.994 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:11:55.994 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:11:55.994 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:11:56.003 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.c.SolrCore [[analytic] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic\data\]
+2018-12-10 09:11:56.003 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.c.SolrCore [[commentRattingAnalytic] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic\data\]
+2018-12-10 09:11:56.004 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [[commentRattingAnalytic2] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\data\]
+2018-12-10 09:11:58.562 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@c86b9e3{/solr,file:///C:/Workspace/extractBinary/solr-7.4.0/server/solr-webapp/webapp/,AVAILABLE}{file:///C:/Workspace/extractBinary/solr-7.4.0/server//solr-webapp/webapp}
+2018-12-10 09:11:58.624 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@2b5825fa{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-12-10 09:11:58.624 INFO  (main) [   ] o.e.j.s.Server Started @15887ms
+2018-12-10 09:12:00.237 INFO  (qtp2045766957-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=1124
+2018-12-10 09:12:02.188 WARN  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.StandardRequestHandler]. Please consult documentation how to replace it accordingly.
+2018-12-10 09:12:02.188 WARN  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.StandardRequestHandler]. Please consult documentation how to replace it accordingly.
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:02.221 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:02.395 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@62bb2910[analytic] main]
+2018-12-10 09:12:02.495 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\analytic\conf
+2018-12-10 09:12:02.612 INFO  (coreLoadExecutor-9-thread-1) [   x:analytic] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:02.613 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.s.SolrIndexSearcher Opening [Searcher@654ed9ba[commentRattingAnalytic] main]
+2018-12-10 09:12:02.613 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.s.SolrIndexSearcher Opening [Searcher@7a301593[commentRattingAnalytic2] main]
+2018-12-10 09:12:02.613 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic\conf
+2018-12-10 09:12:02.613 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\commentRattingAnalytic2\conf
+2018-12-10 09:12:02.614 INFO  (coreLoadExecutor-9-thread-3) [   x:commentRattingAnalytic2] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:02.615 INFO  (coreLoadExecutor-9-thread-2) [   x:commentRattingAnalytic] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:02.630 INFO  (searcherExecutor-12-thread-1-processing-x:analytic) [   x:analytic] o.a.s.c.SolrCore [analytic] Registered new searcher Searcher@62bb2910[analytic] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-10 09:12:02.631 INFO  (searcherExecutor-11-thread-1-processing-x:commentRattingAnalytic2) [   x:commentRattingAnalytic2] o.a.s.c.SolrCore [commentRattingAnalytic2] Registered new searcher Searcher@7a301593[commentRattingAnalytic2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_80(7.4.0):C1) Uninverting(_85(7.4.0):C1)))}
+2018-12-10 09:12:02.631 INFO  (searcherExecutor-10-thread-1-processing-x:commentRattingAnalytic) [   x:commentRattingAnalytic] o.a.s.c.SolrCore [commentRattingAnalytic] Registered new searcher Searcher@654ed9ba[commentRattingAnalytic] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(7.4.0):C1) Uninverting(_1h(7.4.0):C1)))}
+2018-12-10 09:12:02.639 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:12:02.660 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:12:02.671 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema [helpFull] Schema name=test
+2018-12-10 09:12:02.678 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field reviewId
+2018-12-10 09:12:02.678 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'helpFull' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\helpFull, trusted=true
+2018-12-10 09:12:02.678 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.helpFull' (registry 'solr.core.helpFull') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:12:02.678 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:12:02.678 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore [[helpFull] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\helpFull], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\helpFull\data\]
+2018-12-10 09:12:02.691 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-12-10 09:12:02.736 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema [reply] Schema name=test
+2018-12-10 09:12:02.742 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field replyId
+2018-12-10 09:12:02.742 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'reply' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\reply, trusted=true
+2018-12-10 09:12:02.743 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.reply' (registry 'solr.core.reply') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:12:02.743 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:12:02.743 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrCore [[reply] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\reply], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\reply\data\]
+2018-12-10 09:12:02.748 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema [like] Schema name=test
+2018-12-10 09:12:02.754 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema test/1.6 with uniqueid field reviewId
+2018-12-10 09:12:02.754 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'like' using configuration from instancedir C:\Workspace\extractBinary\solr-7.4.0\server\solr\like, trusted=true
+2018-12-10 09:12:02.755 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.like' (registry 'solr.core.like') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc67c2
+2018-12-10 09:12:02.755 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-12-10 09:12:02.755 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrCore [[like] ] Opening new SolrCore at [C:\Workspace\extractBinary\solr-7.4.0\server\solr\like], dataDir=[C:\Workspace\extractBinary\solr-7.4.0\server\solr\like\data\]
+2018-12-10 09:12:07.406 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:07.406 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:07.411 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:07.411 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:07.431 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@405729fa[like] main]
+2018-12-10 09:12:07.432 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\like\conf
+2018-12-10 09:12:07.432 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:07.433 INFO  (searcherExecutor-24-thread-1) [   ] o.a.s.c.SolrCore [like] Registered new searcher Searcher@405729fa[like] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.4.0):C1)))}
+2018-12-10 09:12:07.464 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@1d634c87[reply] main]
+2018-12-10 09:12:07.465 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\reply\conf
+2018-12-10 09:12:07.466 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:07.467 INFO  (searcherExecutor-23-thread-1) [   ] o.a.s.c.SolrCore [reply] Registered new searcher Searcher@1d634c87[reply] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.4.0):C1)))}
+2018-12-10 09:12:07.472 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: disabled
+2018-12-10 09:12:07.473 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-10 09:12:07.510 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5023af9c[helpFull] main]
+2018-12-10 09:12:07.511 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Workspace\extractBinary\solr-7.4.0\server\solr\helpFull\conf
+2018-12-10 09:12:07.512 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-10 09:12:07.512 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.SolrCore [helpFull] Registered new searcher Searcher@5023af9c[helpFull] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(7.4.0):C1) Uninverting(_5(7.4.0):C1) Uninverting(_8(7.4.0):C1)))}
+2018-12-10 09:12:11.277 INFO  (qtp2045766957-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1544433131007} status=0 QTime=1
+2018-12-10 09:12:12.326 INFO  (qtp2045766957-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544433131008} status=0 QTime=1049
+2018-12-10 09:12:13.178 INFO  (qtp2045766957-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544433131008} status=0 QTime=846
